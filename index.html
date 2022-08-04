@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Here!</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <a href="www.piueducation.org"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM384 288H205.3l49.38 49.38c12.5 12.5 12.5 32.75 0 45.25s-32.75 12.5-45.25 0L105.4 278.6C97.4 270.7 96 260.9 96 256c0-4.883 1.391-14.66 9.398-22.65l103.1-103.1c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L205.3 224H384c17.69 0 32 14.33 32 32S401.7 288 384 288z"/></svg>
+                 Back to Home</a>
+        </div>
+        <div class="header-logo">
+            <img src="logo.png" alt="piu_logo">
+            <div class="header-text">
+                <h4>Phaung Daw Oo International University</h4>
+                <span>Student Admision Form</span>
+            </div>
+        </div>
+        <form action="action/enroll.php" method="post">
+            <div class="form-control">
+                <input type="text" name="fname" placeholder="Fist Name" required>
+                <input type="text" name="lname" placeholder="Last Name" required>
+            </div>
+            <div class="form-control">
+                <input type="text" name="usrname" placeholder="User Name" required>
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-control">
+                <input type="text" name="email" placeholder="Email" required>
+                <input type="text" name="phone" placeholder="Contact Number" required>
+            </div>
+            <div class="form-control">
+                <input type="text" name="address" placeholder="Address 1" required>
+                <input type="text" name="address" placeholder="Address 2">
+            </div>
+            <div class="form-control">
+                <select name="" id="" required>
+                    <option value="" selected disabled>Country</option>
+                    <option value="mm" id="mm">Myanamar</option>
+                    <option value="thi" id="thi">Thailand</option>
+                    <option value="lao" id="lao">Laos</option>
+                    <option value="cam" id="cam">Cambodia</option>
+                    <option value="phi" id="phi">Philipines</option>
+                    <option value="mls" id="mls">Malaysia</option>
+                    <option value="sgp" id="sgp">Singapore</option>
+                    <option value="indo" id="indo">Indonesia</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="form-control">
+                    <input type="text" name="city" id="city" placeholder="City" required>
+                </div>
+                <div class="form-control">
+                    <input type="text" name="state" id="state" placeholder="State/Province/Region" required>
+                    <input type="text" name="pst-code" id="pst-code" placeholder="Postal Code" required>
+                </div>
+            </div>
+            <div class="form-control">
+                <select name="" id="" required>
+                    <option value="" selected disabled required>Choose Your Degree</option>
+                    <option value="bac" id="bac">B.A Course</option>
+                    <option value="dip" id="dip">Diploma Course</option>
+                    <option value="sht" id="sht">Short Course</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <select name="" id="" required>
+                    <option value="" selected disabled>Programs of Study</option>
+                    <option value="pba" id="pba">Pali & Buddhist Studies (BA Course)</option>
+                    <option value="pdm" id="pdm">Pali & Buddhist Studies (Diploma Course)</option>
+                    <option value="pcp" id="pcp">Social Studies</option>
+                    <option value="edu" id="edu">Education</option>
+                    <option value="tou" id="tou">Tourism</option>
+                    <option value="eng" id="eng">English</option>
+                    <option value="voc" id="voc">Vocational Training</option>
+                    <option value="bdg" id="bdg">Bridging</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <select name="" id="" required>
+                    <option value="" selected disabled>Campus</option>
+                    <option value="mcam" id="mcam">Nanshae (Main campus)</option>
+                    <option value="ptg" id="ptg">Patheingyi Campus</option>
+                    <option value="dut" id="dut">Dutthawathi Campus</option>
+                    <option value="ohn" id="ohn">Ohnchaw Campus</option>
+                    <option value="onl" id="onl" style="color: green;">Online</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <select name="" id="" required>
+                    <option selected disabled>Education Level</option>
+                    <option value="sig" id="sig">Under Graduate</option>
+                    <option value="mrd" id="mrd">Less than 9th grade</option>
+                    <option value="sep" id="sep">Bachelor</option>
+                    <option value="dvc" id="dvc">High School Diploma</option>
+                    <option value="wid" id="wid">Master's Degree</option>
+                    <option value="ukw" id="ukw">Doctoral's Degree</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <input type="text" name="" id="" placeholder="High Graduation Date" required>
+            </div>
+            <div class="form-control">
+                <select name="" id="" required>
+                    <option selected disabled>Gender</option>
+                    <option value="ohn" id="ohn">Male</option>
+                    <option value="onl" id="onl">Female</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <select name="" id="" required>
+                    <option selected disabled>Matrial status</option>
+                    <option value="sig" id="sig">Single</option>
+                    <option value="mrd" id="mrd">Married</option>
+                    <option value="sep" id="sep">Separated</option>
+                    <option value="dvc" id="dvc">Divorced</option>
+                    <option value="wid" id="wid">Widowed</option>
+                    <option value="ukw" id="ukw">Unknown</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="form-control">
+                    <input type="text" name="refemail" placeholder="Refrence Email" required>
+                    <input type="text" name="refcontact" placeholder="Refrence Contact Number" required>
+                </div>
+                <div class="form-control">
+                    <textarea name="" id="" placeholder="Describe about your refrence person."></textarea>
+                </div>
+            </div>
+            <div class="social-media">
+                <h3>Social Media</h3>
+                <p>If you have a Facebook, Instagram, or Twitter account, let us know so we can connect.</p>
+            </div>
+            <div class="form-group">
+                <div class="form-control">
+                    <input type="text" name="social-media" id="" placeholder="any social profile link">
+                </div>
+                <div class="form-control">
+                    <textarea name="" id="" placeholder="Tell us more about yourself"></textarea>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="btn" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
